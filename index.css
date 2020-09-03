@@ -29,7 +29,6 @@ time, mark, audio, video {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
 }
 
 /*General Page Stlyes*/
@@ -38,18 +37,66 @@ html{
 }
 
 body{
-    font-size:1.8rem;
+    font-size:2.5rem;
     line-height:1.5;
     font-family: 'Long Cang', cursive;
 }
 
 h1{
-    display:flex;
-    text-align:center;
     font-size:5rem;
     font-family: 'Permanent Marker', cursive;
 }
 
+.headerContent{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-top:5%;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
 
 }
+
+nav a{
+    display:inline-block;
+    border-radius:10px;
+    padding:2%;
+
+}
+
+.black{
+    background-color: black;
+    color:white;
+
+}
+
+.white{
+    background-color: white;
+    color:black;
+}
+
+#Introduction{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+h2{
+    font-size:4rem;
+}
+
+.Main-Image{
+    display:flex;
+    align-content: center;
+    background-image:url("https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1369&q=80");
+    height:50vh;
+    background-size:cover;
+    
+   
 
