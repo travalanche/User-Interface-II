@@ -63,7 +63,7 @@ nav{
 
 nav a{
     display:inline-block;
-    border-radius:10px;
+    border-radius:8px;
     padding:2%;
 
 }
@@ -97,6 +97,36 @@ h2{
     background-image:url("https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1369&q=80");
     height:50vh;
     background-size:cover;
+    margin-bottom:12%;
     
-   
+}
+
+#FinalProjects{
+display:flex;
+flex-wrap: nowrap;
+padding:2%;
+width: 25%;
+justify-content: flex-start;
+margin-top:2.5%;
+} 
+
+.img{
+ padding:2%;   
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    padding-left:2%;
+
+}
+
+footer{
+    background-color:grey;
+}
+    
+.contactme{
+    background-color: white;
+    color: black;
+}
 
